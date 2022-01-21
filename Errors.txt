@@ -1,0 +1,2 @@
+            var context = new ValidationContext<object>(entity);
+            var result = validator.Validate(context);

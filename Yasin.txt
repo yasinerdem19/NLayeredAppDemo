@@ -1,0 +1,24 @@
+Single Responsibility Principle
+Open/Closed Principle
+Liskov ‘s Substitution Principle
+Interface Segregation Principle
+Dependency Inversion Principle
+Bu temel kuralların yanı sıra Kiss, Yangi, Dry, Reuse Release Equivalence, Common Closure prensipleri de bulunmaktadır.
+Single Responsibility Principle
+Tek sorumluluk anlamına gelen bu kuralın amacı projede bir değişiklik yapılmak istendiğinde buna bağlı olarak nelerin etkileneceği düşüncesinden kurtulmak ve özgürce isteğimiz geliştirmeyi yapabilmemize olanak sağlamaktır. Her bir method sadece kendisine verilen işi yapar aynı anda birden fazla modeli update etmez, örnek vermek gerekirse bir dizi işi yapan bir fonksiyon yazmaktansa tüm gereksinimleri parçalara ayırıp bağımsız fonksiyonlar ile yapmayı gerektiren bir kuraldır. Böylece zaman içerisinde geliştirme yaparken etkilenecek diğer aşamaları gözden kaçırmanız gibi bir risk oluşmaz.
+Open/Closed Principle
+Açık kapalı prensibi projemizdeki nesnelerin geliştirmeye açık ama değişime kapalı olmaları anlamına gelmektedir. Oluşturduğunuz nesneler zaman içerisinde ek özellikler kazanabilir genişlemeye açık olurlar bu normal bir yazılım projesinde kaçınılmaz bir durumdur. Ama temel nesne değişime kapalı tutulmalıdır.
+Liskov ‘s Substitution Principle
+Yerine geçme prensibi kalıtım alarak türeyen sınıfların kalıtım aldıkları nesnenin tüm özellikleri kullanmalı ve sonrasında kendi özelliklerini barındırmasını hedefleyen bir prensiptir eğer nesne kalıtım aldığı objenin tüm özelliklerini kullanmaz ise ortaya gereksiz kod yığınları oluşur ve sonrasında kalıtım alınan objenin diğerlerinden ayrılması için if else bloklarına ihtiyaç olur ve bu durum son derece verimsiz bir yazılıma sebep olur.
+Interface Segregation Principle
+Arayüz ayırım prensibi, bir arayüze gerektiğinden fazla yetenek eklenmemesi gerektiğini söyler. Nesnelerin ihtiyaç duymadıkları fonksiyonların Interface’lerinden münkün olduğunca ayrıştırılmasıdır.
+Dependency Inversion Principle
+Bağımlılığın ters çevirilmesi ilkesine göre üst seviye sınıflar, modüller, methodlar vs. alt seviyeli sınıflara bağımlı olmamalıdır. Alt sınıflarda yapılan değişiklikler üst sınıfları etkilememelidir. Yüksek seviyeli sınıflar, düşük seviyeli sınıflara bağlı olmamalı, her ikisi de soyut kavramlara bağlı olmalıdır.
+
+
+
+
+
+Fluent Validation for Visual Studio
+
+Tools - > Snippet
